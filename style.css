@@ -1,0 +1,11 @@
+/*Copyright ©2021 QD [www.qd.ua]*/
+body {
+    background: slateblue;
+}
+main {
+    background: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5vmin;
+    width: 100%;
+}
