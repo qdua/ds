@@ -1,4 +1,4 @@
-/*Copyright ©2021 QD [www.qd.ua] v2.0*/
+/*Copyright ©2021 QD [www.qd.ua] v2.0.1*/
 @charset "UTF-8";
 html{color:transparent;-ms-text-size-adjust:100%;overflow-y:scroll;-ms-touch-action: manipulation;touch-action:manipulation;scrollbar-color:tomato transparent;-webkit-text-size-adjust:100%;}
 *,:before,:after{box-sizing:border-box;-webkit-box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent;}
@@ -74,22 +74,22 @@ button[disabled],button[disabled]:hover,.btnDisabled,.btnDisabled:hover{backgrou
 .btnWarning{background:orange;box-shadow:0 8px 24px -4px rgba(255,141,0,0.4);}
 .btnWarning:hover{background:darkorange;}
 .btnInfo{background:deepskyBlue;box-shadow:0 8px 24px -4px rgba(31,144,255,0.5);}
-.btnInfobtnInfo:hover{background:dodgerblue;}
+.btnInfo:hover{background:dodgerblue;}
 .inputXSmall{width:32px!important;}
 .inputSmall{width:64px!important;}
 .inputMedium{width:240px!important;}
 .inputLarge{width:400px!important;}
 .inputXLarge{width:560px!important;}
 .inputXXLarge{width:640px!important;}
-.clear, .clr{clear:both;height:0;}
-.invisible{visibility:hidden;}
-.opacity{font-size:0!important;left:-100000px!important;opacity:0!important;position:absolute!important;top:-100000px!important;}
 .affix{position:fixed;}
 .fl{float:left!important;}
 .fr{float:right!important;}
+.clear, .clr{clear:both;height:0;}
+.invisible{visibility:hidden;}
 .noBG{background:none!important;}
 .noBD{border:none!important;}
-.none, .hidden, .hide{display:none!important;height:0!important;opacity:0!important;overflow:hidden;pointer-events:none;position:absolute!important;top:-1000%;width:0!important;user-select:none;}
+.none, .hidden, .hide{display:none!important;font-size:0!important;height:0!important;opacity:0!important;overflow:hidden;pointer-events:none;position:fixed!important;top:-1000%;width:0!important;user-select:none;z-index:-1;}
+.opacity{opacity:0!important;pointer-events:none;position:relative!important;z-index:-1;user-select:none;}
 @media print{ *,body,html,:before,:after,:first-letter,p:first-line,div:first-line,blockquote:first-line,li:first-line{background:transparent;box-shadow:none!important;color:black;-webkit-filter:none!important;filter:none!important;-ms-filter:none!important;text-shadow:none;}
  *{-webkit-print-color-adjust:exact;}
  body{background-image:none;}
