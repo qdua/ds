@@ -21,3 +21,11 @@ main {
     list-style-type: upper-alpha;
     font-size: 10vmin;
 }
+.columns {
+    display: flex;
+    flex-direction: row;
+    gap: 5vmin;
+}
+.columns > * {
+    background: springgreen;
+}
