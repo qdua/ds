@@ -9,3 +9,15 @@ main {
     padding: 5vmin;
     width: 100%;
 }
+.imageSystem {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:24px;
+}
+#abetka ol {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    list-style-type: upper-alpha;
+    font-size: 10vmin;
+}
