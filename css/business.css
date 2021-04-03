@@ -1,0 +1,146 @@
+@import url(color.css);
+
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+header {
+    height: 80px;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10000;
+}
+.logo {
+    background: url(/business/images/logo.svg) no-repeat center;
+    background-size: contain;
+    color: var(--green);
+    cursor: pointer;
+    font-size: 12px;
+    height: 50px;
+    padding: 64px 0 0;
+    text-align: center;
+    width: 50px;
+}
+nav {
+    height: 80px;
+    left: 200px;
+    position: absolute;
+    top:0;
+}
+nav ul {
+    align-items: center;
+    display: flex;
+    gap: 24px;
+    height: 80px;
+}
+nav a {
+    color: var(--green) !important; 
+}
+nav a:hover {
+    color: var(--gold-light) !important; 
+}
+.tel {
+    align-items: center;
+    color: var(--white);
+    display: flex;
+    font-size: 20px;
+    height: 80px;
+    position: absolute;
+    right: 100px;
+    top: 0;
+}
+.searchBtn {
+    background: url(/business/images/search.svg) no-repeat center ;
+    background-size: 30px auto;
+    cursor: pointer;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 40px;
+}
+#home {
+    background: linear-gradient(135deg, var(--blue-light), var(--blue-dark));
+    color: var(--green);
+    height: 100vh;
+}
+#home .wrap {
+    height: 100vh;
+}
+.slogan {
+    left: 0;
+    position: absolute;
+    top: 25vh;
+}
+.slogan * {
+    font-size: 48px;
+}
+.slogan * span { color: var(--red); }
+.slogan h2 {
+    transform: translateX(100px);
+}
+.scroll {
+    background: url(/business/images/scroll.svg) no-repeat center top;
+    background-size: contain;
+    bottom: 40px;
+    cursor: pointer;
+    height: 40px;
+    left: 50%;
+    margin: 0 0 0 -20px;
+    position: absolute;
+    width: 40px;
+}
+.play {
+    background: url(/business/images/play.svg) no-repeat center, linear-gradient(var(--blue-light), var(--blue));
+    border-radius: 100%;
+    box-shadow: 0 8px 24px -4px var(--blue-dark);
+    bottom: 40px;
+    cursor: pointer;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    width: 100px;
+}
+.circle {
+    bottom: 0; 
+    height: 100vh;
+    left:0;
+    overflow: hidden;
+    position: absolute;
+    right:0;
+}
+.brd {
+    background: linear-gradient(45deg, var(--red-dark), var(--red-dark));
+    border-radius: 100%; 
+    box-shadow:0 0 8vmin -2vmin hsl(303, 92%, 41%), 0 0 20vmin -1vmin var(--red-light) inset, 0 -2vmin 20vmin -1vmin hsl(320, 100%, 67%) inset, 0 -5vmin 5vmin rgba(75, 1, 45, 1) inset;
+    position: absolute;
+    filter: drop-shadow(5vmin 6vmin 6vmin  rgba(20, 20, 70, 0.7));
+    width: 50vmin;
+}
+.brd:nth-child(1) {
+    border-radius: 57% 43% 39% 61% / 57% 49% 51% 43% ;
+    height: 80vmin; 
+    top: -10vmin;
+    right: -20vmin; 
+    width: 80vmin;
+
+}
+.brd:nth-child(2) {
+    border-radius: 37% 63% 52% 48% / 41% 68% 32% 59%;
+    filter: drop-shadow(-5vmin 5vmin 6vmin  rgba(20, 20, 70, .25));
+    height: 40vmin;
+    right: -20vmin;
+    transform: rotate(16deg);
+    top: 45vmin;
+}
+.brd:nth-child(3) {
+    border-radius: 54% 46% 39% 61% / 41% 55% 45% 59% ;
+    bottom: 0;
+    height: 25vmin;
+    left: -10vmin; 
+    transform: rotate(-25deg);
+    width: 40vmin;
+}

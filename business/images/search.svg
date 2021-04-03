@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45.255" height="45.255" viewBox="0 0 45.255 45.255">
+  <g id="Group_2" data-name="Group 2" transform="translate(-1373.021 -67.771)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(1395.649 113.026) rotate(-135)" fill="none" stroke="#00ff7f" stroke-width="3">
+      <circle cx="16" cy="16" r="16" stroke="none"/>
+      <circle cx="16" cy="16" r="14.5" fill="none"/>
+    </g>
+    <line id="Line_1" data-name="Line 1" x2="8.245" y2="8.202" transform="translate(1406.255 100.298)" fill="none" stroke="#00ff7f" stroke-linecap="round" stroke-width="3"/>
+  </g>
+</svg>

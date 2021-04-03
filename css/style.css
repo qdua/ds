@@ -1,6 +1,6 @@
-/*Copyright ©2021 QD [www.qd.ua]*/
+@import url(color.css);
 body {
-    background: slateblue;
+    background: var(--white);
 }
 main {
     background: white;
@@ -27,5 +27,5 @@ main {
     gap: 5vmin;
 }
 .columns > * {
-    background: springgreen;
+    background: #00ff7f;
 }

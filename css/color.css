@@ -1,0 +1,20 @@
+:root {
+    --green-dark: #00db6e;
+    --green: #00ff80;
+    --green-light: #24ff91;
+    
+    --red-dark: #d30063;
+    --red: #f70073;
+    --red-light: #ff1c86;
+    
+    --blue-dark: #0c2e73;
+    --blue: #0f3b93;
+    --blue-light: #1248b4;
+    
+    --gold-dark: #dbba00;
+    --gold: #ffd900;
+    --gold-light: #ffde24;
+
+    --white: white;
+    --black: black;
+}
